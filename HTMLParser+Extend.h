@@ -21,6 +21,6 @@
                     allowPartial:(BOOL)partial;
 
 - (NSArray *)findChildrenOfNode:(HTMLNode *)node 
-   WithAttributesMatchingValues:(NSDictionary *)attributes 
+   withAttributesMatchingValues:(NSDictionary *)attributes 
                    allowPartial:(BOOL)partial;
 @end
