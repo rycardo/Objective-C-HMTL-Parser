@@ -1,14 +1,15 @@
 //
-//  HTMLNode+AddedFinds.m
-//  BShopDeluxe
+//  HTMLNode+Extend.m
+//  4XQ LLC
 //
-//  Created by Rycardo Cousteau on 18-01-14.
+//  Created by 4XQ LLC on 26-08-16.
 //  Copyright (c) 2014 4XQ. All rights reserved.
 //
+//  Extended Ben Reeve's Objective-C-HTML-Parser
 
-#import "HTMLNode+AddedFinds.h"
+#import "HTMLNode+Extend.h"
 
-@implementation HTMLNode (AddedFinds)
+@implementation HTMLNode (Extend)
 
 - (HTMLNode *)findChildNodeWithMatchingAttributes:(NSDictionary *)attributes
                                 allowPartialMatch:(BOOL)partial 
